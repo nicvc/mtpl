@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mtpl"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+arff = "^0.9"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+catboost = "^1.2.7"
+matplotlib = "^3.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
